@@ -92,3 +92,14 @@ hr {
 .hero-heading .hero-name {
   color: var(--primary-color);
 }
+
+/* Section */
+.section {
+  padding: 2rem;
+}
+.section h1 {
+  text-align: center;
+}
+.off-white {
+  background-color: whitesmoke;
+}
