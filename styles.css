@@ -8,6 +8,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0px;
 }
 /* Container */
 .container {
@@ -29,7 +30,9 @@ hr {
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
-
+a:hover {
+  background-color: rgb(116, 94, 238);
+}
 .primary-link {
   background-color: var(--primary-color);
   border-radius: 0.5rem;
@@ -102,4 +105,22 @@ hr {
 }
 .off-white {
   background-color: whitesmoke;
+}
+
+/* Footer */
+
+.footer {
+  color: white;
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  border-top-right-radius: 1rem;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
 }
