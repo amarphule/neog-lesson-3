@@ -2,7 +2,7 @@
 
 /* Set Variables */
 :root {
-  --primary-color: #3e2dec;
+  --primary-color: #924c88;
   --dark-gray: #6b7280;
 }
 
@@ -31,7 +31,7 @@ hr {
   padding: 0.5rem 1rem;
 }
 a:hover {
-  background-color: rgb(116, 94, 238);
+  background-color: rgb(122, 56, 111);
 }
 .primary-link {
   background-color: var(--primary-color);
@@ -83,13 +83,14 @@ a:hover {
 }
 
 .hero .hero-img {
-  max-width: 350px;
+  max-width: 330px;
   display: block;
   margin: auto;
 }
 
 .hero-heading {
   color: var(--dark-gray);
+  text-align: center;
 }
 
 .hero-heading .hero-name {
@@ -117,6 +118,10 @@ a:hover {
   border-top-right-radius: 1rem;
 }
 
+.footer-header {
+  font-weight: bold;
+  font-size: 25px;
+}
 .footer .link {
   color: white;
 }
